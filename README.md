@@ -1,3 +1,12 @@
+# homebrew setup
+- https://brew.sh/
+- https://formulae.brew.sh/cask/iterm2
+```
+vi ~/.zshrc
+export PATH="/opt/homebrew/bin:$PATH"
+source ~/.zshrc
+```
+
 # install [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 ```shell
 brew install powerlevel10k
@@ -12,3 +21,6 @@ echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlight
 
 # import color profile
 - iTerm2 > settings > Profiles > color > Other actions > import json file
+
+# vscode theme
+- https://github.com/azemoh/vscode-one-monokai
